@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Vitor Ramos, estudante de programação e desenvolvedor web em formação.">
+    <title>Vitor Ribeiro Ramos | Portfólio</title> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#inicio" class="logo">Vitor<span>.</span></a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                aria-label="Abrir menu" aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero container" id="inicio">
+            <div class="hero-content">
+                <span class="tag">ESTUDANTE DE PROGRAMAÇÃO</span>
+e
+                <h1>Olá, eu sou o <span>Vitor Ramos.</span></h1>
+
+                <h2>Desenvolvedor web em formação.</h2>
+
+                <p>
+                    Estou construindo minha jornada na programação,
+                    aprendendo novas tecnologias e desenvolvendo minhas
+                    habilidades para transformar ideias em soluções digitais.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#sobre" class="btn btn-primary">Conheça meu perfil</a>
+                    <a href="#contato" class="btn btn-secondary">Entre em contato</a>
+                </div>
+            </div>
+
+            <div class="hero-decoration">
+                <div class="code-card">
+                    <div class="code-header">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <pre><code><span class="code-purple">const</span> desenvolvedor = {
+  nome: <span class="code-green">"Vitor"</span>,
+  foco: <span class="code-green">"Web"</span>,
+  objetivo: <span class="code-green">"Evoluir"</span>
+};</code></pre>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container" id="sobre">
+            <div class="section-heading">
+                <span class="tag">QUEM SOU</span>
+                <h2>Sobre mim</h2>
+            </div>
+
+            <div class="about-card">
+                <p>
+                    Sou estudante do Ensino Médio e do curso técnico em
+                    Desenvolvimento de Sistemas. Tenho interesse em tecnologia,
+                    programação e criação de páginas web.
+                </p>
+
+                <p>
+                    Estou sempre buscando aprender coisas novas, praticar o que
+                    estudo e evoluir como profissional. Meu objetivo é adquirir
+                    experiência e construir uma carreira na área de tecnologia.
+                </p>
+            </div>
+        </section>
+
+        <section class="section container" id="habilidades">
+            <div class="section-heading">
+                <span class="tag">O QUE ESTOU APRENDENDO</span>
+                <h2>Minhas habilidades</h2>
+                <p>Conhecimentos que venho desenvolvendo nos estudos.</p>
+            </div>
+
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <div class="skill-icon">🌐</div>
+                    <h3>HTML5</h3>
+                    <p>Estruturação de páginas web.</p>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>CSS3</h3>
+                    <p>Estilização e layouts responsivos.</p>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon">⚡</div>
+                    <h3>JavaScript</h3>
+                    <p>Fundamentos de programação para a web.</p>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon">🐍</div>
+                    <h3>Python</h3>
+                    <p>Lógica de programação e conceitos básicos.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section container" id="contato">
+            <div class="contact-card">
+                <span class="tag">VAMOS CONVERSAR</span>
+                <h2>Entre em contato</h2>
+
+                <p>
+                    Estou aberto a oportunidades de aprendizado, colaboração
+                    e desenvolvimento na área de tecnologia.
+                </p>
+
+                <a class="btn btn-primary"
+                   href="mailto:SEUEMAIL@EXEMPLO.COM">
+                    Enviar e-mail
+                </a>
+
+                <p class="contact-note">
+                    Substitua o e-mail acima pelo seu endereço de contato.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="#inicio" class="logo">Vitor<span>.</span></a>
+            <p>Construindo meu futuro na tecnologia.</p>
+            <p>© <span id="year"></span> Vitor Ramos.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
